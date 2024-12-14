@@ -1,47 +1,27 @@
-# Angular Showcase Sample Configuration
+# Essential JS 2 for Angular - Fitness-tracker
 
-This application includes a sample of the Angular Showcase template along with essential configurations and router integration, designed to facilitate a seamless start for your own projects.
+This demo demonstrates a dashboard that contains a user's health tracking details, primarily about the user's daily activities, diet plan, and fasting details. The demo was built primarily in angular with syncfusion angular components.
 
-The Angular showcase demo can be accessed at the following location:
+## Deployment
 
-[https://npmci.syncfusion.com/development/showcase/angular/sample_template/](https://npmci.syncfusion.com/development/showcase/angular/sample_template/)
+### Install
 
-## package.json
+To install all dependent packages, use the below command
 
-* Replace the name from `@syncfusion/ej2-angular-sample_template` with `@syncfusion/ej2-angular-{sample-name}`.
-* Replace the description from `Essential JS 2 - Sample name` with `Essential JS 2 - {Your sample-Name}`.
-* Place the required ej2 component dependencies inside the `dependencies` section.
-
-## angular.json
-
-* Search and replace the `ej2-angular-showcase-template` with `ej2-angular-{sample-name}` in the angular.json file.
-* Change the `outputPath` value to `dist/` in the angular.json file.
-
-## Installation
-
-To install the application dependencies, use the following command:
-
-```sh
+```
 npm install
 ```
 
-## Build the application
+### Run
 
-To Build the application, use the below command,
+To run the sample, use the below command
 
-```sh
-ng build
 ```
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-
-## Run the application
-
-To run the sample in the browser with live reload, use the following command:
-
-```sh
 ng serve
 ```
+
+## Demo
+
+#### <a href="https://ej2.syncfusion.com/showcase/angular/fitness-tracker-app/" target="_blank">https://ej2.syncfusion.com/showcase/angular/fitness-tracker-app/</a>
+
+Check all the showcase samples from <a href="https://ej2.syncfusion.com/showcase/angular/fitness-tracker-app/" target="_blank">here</a>.
